@@ -23,6 +23,11 @@ Our [workarounds](./Workarounds) section may assist you in working around any fe
 * `$ ./main`
 * Output:
 * `The answer to life, the universe, and everything is 42.`
+> [!WARNING] 
+> Compiling our source code with GCC and Clang is currently significantly harder because 
+> these compilers do not have released (strong) support for modules yet.
+> We are still looking into what is possible with GCC and Clang,
+> but for now we recommend you try to use Visual Studio instead.
 
 ## Contributions
 
