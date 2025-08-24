@@ -11,7 +11,7 @@ Download the files as a zip using the green button, or clone the repository to y
 [Compiling.md](Compiling.md) contains a guide on how to compile source code for the book.
 Our [workarounds](./Workarounds) section may assist you in working around any features your compiler is lacking.
 
-> [!NOTE]
+## Compiling: Note to Self
 * Required compiler version: `g++ 15.1.0`.
 * These are the compilation steps required to compile 1 `.cpp` source file; I might include a `Note` about using `CMake` later.
 * Compiling the 1st program: `Ex1_01.cpp`:
@@ -23,11 +23,6 @@ Our [workarounds](./Workarounds) section may assist you in working around any fe
 * `$ ./main`
 * Output:
 * `The answer to life, the universe, and everything is 42.`
-> [!WARNING] 
-> Compiling our source code with GCC and Clang is currently significantly harder because 
-> these compilers do not have released (strong) support for modules yet.
-> We are still looking into what is possible with GCC and Clang,
-> but for now we recommend you try to use Visual Studio instead.
 
 ## Contributions
 
